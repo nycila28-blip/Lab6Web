@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pendaftaran Workshop</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <main class="kartu">
+            <h1> Pendaftaran Workshop </h1>
+            <form id="formWorkshop" novalidate>
+                <label for="nama">Nama lengkap</label>
+                <input id="nama" type="text" maxlength="40">
+                <small>Jumlah karakter: <span id="hitungNama">0</span>/40</small>
+
+                <label for="email">Email</label>
+                <input id="email" type="email">
+
+                <label for="sesi">Pilih sesi</label>
+                <select id="sesi">
+                    <option value="">-- Pilih sesi --</option>
+                    <option value="Pagi (09.00)">Pagi (09.00)</option>
+                    <option value="Siang (13.00)">Siang (13.00)</option>
+                    <option value="Sore (16.00)">Sore (16.00)</option>
+                </select>
+
+                <div class="tombol">
+                    <button type="submit">Daftar</button>
+                    <button type="button" id="tombolReset">Reset</button>
+                </div>
+            </form>
+
+            <p id="pesanForm" aria-live="polite"></p>
+
+            <section class="ringkasan">
+                <h2> Ringkasan</h2>
+                <p>Nama: <span id="rNama">-</span></p>
+                <p>Email: <span id="rEmail">-</span></p>
+                <p>Sesi: <span id="rSesi">-</span></p>
+            </section>
+        </main>
+    </body>
+</html>

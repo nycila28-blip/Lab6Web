@@ -1,0 +1,18 @@
+/* ==== LATIHAN 3 ====*/
+
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+
+.text-besar { font-size: 1.4rem;  }
+
+/* === LATIHAN 6 ===*/
+
+.selesai span { text-decoration: line-through; color: #687386; }
+li { margin-bottom: 8px; }
+
+/* === EKSPERIMEN 4 === */
+.sembunyi { display : none; }

@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f2f6fb; margin: 0; padding: 16px; }
+.kartu { max-width: 480px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select { width: 100%; padding: 10px; margin-top: 4px; font-size: 1rem; }
+.tombol { display: flex; gap: 8px; margin-top: 16px; }
+.tombol button { flex: 1; padding: 10px; font-size: 1rem; cursor: pointer; }
+.error { color: #b00020; }
+.sukses { color: #1b7f3b; }
+.ringkasan { margin-top: 20px; background: #e6f1ff; padding: 12px; border-radius: 8px; }
+@media (max-width: 480px) { .kartu { padding: 14px; } }
